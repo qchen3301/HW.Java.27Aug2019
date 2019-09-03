@@ -7,10 +7,9 @@ public class Main {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Hello World from the Main Class!");
-
-
-        //UserMainCode thisNewObject = new UserMainCode();
-        int countMyVars = UserMainCode.testVowels("abcdefghh");
-        System.out.println(countMyVars);
+        System.out.println("Enter in your string to check if all vowels are present");
+        String countMyVowels = input.next();
+        int returnMyVowels = UserMainCode.testVowels(countMyVowels);
+        System.out.println(returnMyVowels);
     }
 }
