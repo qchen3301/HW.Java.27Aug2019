@@ -6,7 +6,7 @@ public class UserMainCode {
 
     static Scanner userInput = new Scanner(System.in);
     static int testVowels(String userStringParam) {
-        userStringParam = userInput.nextLine();
+//        userStringParam = userInput.nextLine();
 //        char testChar;
         int vowelCounter = 0;
 
